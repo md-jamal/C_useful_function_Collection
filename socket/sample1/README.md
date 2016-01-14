@@ -4,17 +4,19 @@ Socket Sample
 STEP
 ----------------
 Compile server.c
-gcc server.c -o server
+
+        gcc server.c -o server
 
 Compile client.c
-gcc client.c -o client
+
+        gcc client.c -o client
 
 Execute server
 
 Open another terminal and execute client will see following message.
 
-$ ./clinet 127.0.0.1
-Thu Jan 14 14:17:45 2016
+        $ ./clinet 127.0.0.1 
+        Thu Jan 14 14:17:45 2016
 
 Reference:
 
